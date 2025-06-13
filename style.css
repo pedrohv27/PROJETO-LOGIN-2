@@ -61,6 +61,10 @@ input::placeholder {
     color: white;
 }
 
+   input:not(:placeholder-shown) {
+      background-color: transparent; /* verde claro */
+    }
+
 .input-senha {
     display: block;
 }
