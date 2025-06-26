@@ -1,4 +1,4 @@
+const elementos = document.querySelector(".input-senha")
+elementos.type = "text"
 
-
-const nome = "pedro"
-console.log(nome)
+console.log(elementos)
