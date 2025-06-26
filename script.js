@@ -1,4 +1,4 @@
 const elementos = document.querySelector(".input-senha")
-elementos.type = "text"
+elementos.placeholder = "calma pai "
 
-console.log(elementos)
+console.log(elementos.type)
